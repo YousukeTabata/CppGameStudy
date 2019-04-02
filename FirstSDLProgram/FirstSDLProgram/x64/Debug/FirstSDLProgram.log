@@ -1,0 +1,308 @@
+﻿2019/04/01 19:03:07 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" (Build ターゲット)。
+     1>ツール バージョン "15.0" でビルドしています。
+       false 条件により、ターゲット "EnableIntermediateOutputPathMismatchWarning" を省略しました。('$(RestoreProjectStyle)' == 'PackageReference') は ('' == 'PackageReference') として評価されました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "_CheckForInvalidConfigurationAndPlatform" (ターゲット "SetTelemetryEnvironmentVariables" は依存):
+       false 条件のため、タスク "Error" を省略しました。( '$(_InvalidConfigurationError)' == 'true' ) は ( '' == 'true' ) として評価されました。
+       false 条件のため、タスク "Warning" を省略しました。( '$(_InvalidConfigurationWarning)' == 'true' ) は ( '' == 'true' ) として評価されました。
+       "Message" タスクをアセンブリ "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" から使用しています。
+       タスク "Message"
+         Configuration=Debug
+       タスク "Message" の実行が終了しました。
+       タスク "Message"
+         Platform=x64
+       タスク "Message" の実行が終了しました。
+       false 条件のため、タスク "Error" を省略しました。('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) は ('D:\Study\Cpp\FirstSDLProgram\x64\Debug\' != '' and !HasTrailingSlash('D:\Study\Cpp\FirstSDLProgram\x64\Debug\')) として評価されました。
+       false 条件のため、タスク "Error" を省略しました。('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) は ('obj\' != '' and !HasTrailingSlash('obj\')) として評価されました。
+       false 条件のため、タスク "Error" を省略しました。('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) は ('x64\Debug\' != '' and !HasTrailingSlash('x64\Debug\')) として評価されました。
+       false 条件のため、タスク "Error" を省略しました。( '$(_InitialMSBuildProjectExtensionsPath)' != '' And '$(MSBuildProjectExtensionsPath)' != '$(_InitialMSBuildProjectExtensionsPath)' ) は ( 'D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\obj\' != '' And 'D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\obj\' != 'D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\obj\' ) として評価されました。
+       false 条件のため、タスク "Warning" を省略しました。( '$(EnableBaseIntermediateOutputPathMismatchWarning)' == 'true' And '$(_InitialBaseIntermediateOutputPath)' != '$(BaseIntermediateOutputPath)' And '$(BaseIntermediateOutputPath)' != '$(MSBuildProjectExtensionsPath)' ) は ( '' == 'true' And 'obj\' != 'obj\' And 'obj\' != 'D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\obj\' ) として評価されました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "_CheckForInvalidConfigurationAndPlatform" のビルドが終了しました。
+       ターゲット "_CheckForInvalidConfigurationAndPlatform" を省略しました。以前に正しくビルドされていました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.DesignTime.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "SetTelemetryEnvironmentVariables" (ターゲット "Build" は依存):
+       "SetEnv" タスクをアセンブリ "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll" から使用しています。
+       タスク "SetEnv"
+         VSTEL_SolutionSessionID={F7C589C6-6668-40B2-8A40-17EDB9870A92}
+       タスク "SetEnv" の実行が終了しました。
+       タスク "SetEnv"
+         VSTEL_CurrentSolutionBuildID=22171656
+       タスク "SetEnv" の実行が終了しました。
+       タスク "SetEnv"
+         VSTEL_ProjectID={99AED5BA-3983-46D1-ACFD-E263B88FD81E}
+       タスク "SetEnv" の実行が終了しました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "SetTelemetryEnvironmentVariables" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "_PrepareForBuild" (ターゲット "Build" は依存):
+       false 条件のため、タスク "CreateItem" を省略しました。('%(CustomBuild.IncludeFileToTool)'!='') は (''!='') として評価されました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "_PrepareForBuild" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "_PrepareForReferenceResolution" (ターゲット "ResolveReferences" は依存):
+       false 条件のため、タスク "Message" を省略しました。('$(_REFERENCE_DEBUG)'=='true') は (''=='true') として評価されました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "_PrepareForReferenceResolution" のビルドが終了しました。
+       false 条件により、ターゲット "ComputeCrtSDKReference" を省略しました。('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') は ('main.cpp'!='' and 'false'=='true' and '' != 'false') として評価されました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "BeforeResolveReferences" (ターゲット "ResolveReferences" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "BeforeResolveReferences" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "AssignProjectConfiguration" (ターゲット "ResolveReferences" は依存):
+       "AssignProjectConfiguration" タスクをアセンブリ "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" から使用しています。
+       タスク "AssignProjectConfiguration"
+       タスク "AssignProjectConfiguration" の実行が終了しました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "AssignProjectConfiguration" のビルドが終了しました。
+       ターゲット "AssignProjectConfiguration" を省略しました。以前に正しくビルドされていました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "_SplitProjectReferencesByFileExistence" (ターゲット "PrepareProjectReferences" は依存):
+       false 条件のため、タスク "ResolveNonMSBuildProjectOutput" を省略しました。('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') は ('true'=='true' and ''!='') として評価されました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "_SplitProjectReferencesByFileExistence" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "_GetProjectReferenceTargetFrameworkProperties" (ターゲット "PrepareProjectReferences" は依存):
+       "MSBuild" タスクをアセンブリ "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" から使用しています。
+       タスク "MSBuild"
+       タスク "MSBuild" の実行が終了しました。
+       false 条件のため、タスク "GetReferenceNearestTargetFrameworkTask" を省略しました。('@(_ProjectReferenceTargetFrameworkPossibilities->Count())' != '0' and '$(ReferringTargetFrameworkForProjectReferences)' != '') は ('0' != '0' and '.NETFramework,Version=v4.0' != '') として評価されました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "_GetProjectReferenceTargetFrameworkProperties" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "PrepareProjectReferences" (ターゲット "ResolveProjectReferences" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "PrepareProjectReferences" のビルドが終了しました。
+       false 条件により、ターゲット "_RemoveNameMetadataFromProjectReferenceItems" を省略しました。('@(ProjectReference)'!='') は (''!='') として評価されました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "ResolveProjectReferences" (ターゲット "ResolveReferences" は依存):
+       false 条件のため、タスク "MSBuild" を省略しました。('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') は ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' != '10.0' and '' != '') として評価されました。
+       false 条件のため、タスク "MSBuild" を省略しました。('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') は ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' == '10.0' and '' != '') として評価されました。
+       false 条件のため、タスク "MSBuild" を省略しました。('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') は ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '') として評価されました。
+       false 条件のため、タスク "MSBuild" を省略しました。('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') は ('' == 'true' and '' != '' and 'true' == 'true' and '' != '') として評価されました。
+       false 条件のため、タスク "Warning" を省略しました。('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') は ('' != '' and '' != '') として評価されました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "ResolveProjectReferences" のビルドが終了しました。
+       false 条件により、ターゲット "FindInvalidProjectReferences" を省略しました。('$(FindInvalidProjectReferences)' == 'true') は ('' == 'true') として評価されました。
+       false 条件により、ターゲット "ResolveNativeReferences" を省略しました。('@(NativeReference)'!='') は (''!='') として評価されました。
+       ターゲット "_PrepareForReferenceResolution" を省略しました。以前に正しくビルドされていました。
+       ターゲット "ResolveProjectReferences" を省略しました。以前に正しくビルドされていました。
+       false 条件により、ターゲット "FindInvalidProjectReferences" を省略しました。('$(FindInvalidProjectReferences)' == 'true') は ('' == 'true') として評価されました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "GetFrameworkPaths" (ターゲット "ResolveAssemblyReferences" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "GetFrameworkPaths" のビルドが終了しました。
+       ターゲット "_PrepareForReferenceResolution" を省略しました。以前に正しくビルドされていました。
+       false 条件により、ターゲット "GetWinFXPath" を省略しました。(('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) は (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )) として評価されました。
+       ターゲット "GetFrameworkPaths" を省略しました。以前に正しくビルドされていました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "GetReferenceAssemblyPaths" (ターゲット "ResolveAssemblyReferences" は依存):
+       false 条件のため、タスク "GetReferenceAssemblyPaths" を省略しました。('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) は ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')) として評価されました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "GetReferenceAssemblyPaths" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Current.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "SetBuildDefaultEnvironmentVariables" (ターゲット "PrepareForBuild" は依存):
+       タスク "SetEnv"
+         PATH=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86;C:\Program Files (x86)\Windows Kits\10\bin\10.0.17134.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\wamp\bin\php\php7.2.4;C:\wamp\bin\apache\apache2.4.33;D:\cakephpregistration.com\app\Console;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\HashiCorp\Vagrant\bin;C:\Program Files\PuTTY\;C:\Program Files\Microsoft VS Code\bin;C:\Ruby200-x64\bin;C:\Users\tabata\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\tabata\AppData\Local\Android\Sdk\platform-tools;C:\Python27;C:\Program Files (x86)\GnuWin32\bin;C:\Users\tabata\AppData\Roaming\npm;C:\SDL2-2.0.9\lib\x64;;
+       タスク "SetEnv" の実行が終了しました。
+       タスク "SetEnv"
+         LIB=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\atlmfc\lib\x64;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\VS\lib\x64;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17134.0\ucrt\x64;;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17134.0\um\x64;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x64;;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Lib\um\x64
+       タスク "SetEnv" の実行が終了しました。
+       タスク "SetEnv"
+         LIBPATH=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\atlmfc\lib\x64;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64;
+       タスク "SetEnv" の実行が終了しました。
+       タスク "SetEnv"
+         INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\atlmfc\include;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt;;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;
+       タスク "SetEnv" の実行が終了しました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "SetBuildDefaultEnvironmentVariables" のビルドが終了しました。
+       false 条件により、ターゲット "SetUserMacroEnvironmentVariables" を省略しました。('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') は ('' != '' and '' != 'true') として評価されました。
+       ターゲット "_PrepareForReferenceResolution" を省略しました。以前に正しくビルドされていました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "GetResolvedWinMD" (ターゲット "PrepareForBuild" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "GetResolvedWinMD" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "PlatformPrepareForBuild" (ターゲット "PrepareForBuild" は依存):
+       false 条件のため、タスク "VCMessage" を省略しました。('$(_Error64bitToolsNotInstalled)' == 'true') は ('' == 'true') として評価されました。
+       false 条件のため、タスク "VCMessage" を省略しました。('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == '') は (''!='true' and 'true' != 'true' and 'v141' == '') として評価されました。
+       false 条件のため、タスク "VCMessage" を省略しました。('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v110') は (''!='true' and 'true' != 'true' and 'v141' == 'v110') として評価されました。
+       false 条件のため、タスク "VCMessage" を省略しました。('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v100') は (''!='true' and 'true' != 'true' and 'v141' == 'v100') として評価されました。
+       false 条件のため、タスク "VCMessage" を省略しました。('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v90') は (''!='true' and 'true' != 'true' and 'v141' == 'v90') として評価されました。
+       false 条件のため、タスク "VCMessage" を省略しました。('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' != 'v90' and '$(PlatformToolset)' != 'v100' and '$(PlatformToolset)' != 'v110') は (''!='true' and 'true' != 'true' and 'v141' != 'v90' and 'v141' != 'v100' and 'v141' != 'v110') として評価されました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "PlatformPrepareForBuild" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "_CheckWindowsSDKInstalled" (ターゲット "PrepareForBuild" は依存):
+       false 条件のため、タスク "VCMessage" を省略しました。('$(WindowsSDKInstalled)' != 'true') は ('true' != 'true') として評価されました。
+       false 条件のため、タスク "VCMessage" を省略しました。('$(PlatformShortName)' == 'ARM' and '$(WindowsAppContainer)' != 'true' and '$(WindowsSDKDesktopARMSupport)' != 'true') は ('x64' == 'ARM' and 'false' != 'true' and '' != 'true') として評価されました。
+       false 条件のため、タスク "VCMessage" を省略しました。('$(PlatformShortName)' == 'ARM64' and '$(WindowsAppContainer)' != 'true' and '$(WindowsSDKDesktopARM64Support)' != 'true') は ('x64' == 'ARM64' and 'false' != 'true' and '' != 'true') として評価されました。
+       false 条件のため、タスク "VCMessage" を省略しました。('$(WindowsAppContainer)' != 'true' and '$(WindowsSDK_Desktop_Support)' != true) は ('false' != 'true' and 'true' != true) として評価されました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "_CheckWindowsSDKInstalled" のビルドが終了しました。
+       ターゲット "GetFrameworkPaths" を省略しました。以前に正しくビルドされていました。
+       ターゲット "GetReferenceAssemblyPaths" を省略しました。以前に正しくビルドされていました。
+       false 条件により、ターゲット "AssignLinkMetadata" を省略しました。( '$(SynthesizeLinkMetadata)' == 'true' ) は ( '' == 'true' ) として評価されました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "SetCABuildNativeEnvironmentVariables" (ターゲット "PrepareForBuild" は依存):
+       タスク "SetEnv"
+         CAExcludePath=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;
+       タスク "SetEnv" の実行が終了しました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "SetCABuildNativeEnvironmentVariables" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "PrepareForBuild" (ターゲット "ResolveAssemblyReferences" は依存):
+       false 条件のため、タスク "VCMessage" を省略しました。('$(DesignTimeBuild)' != 'true' and '$(ConfigurationPlatformExists)' != 'true') は ('' != 'true' and 'true' != 'true') として評価されました。
+       "MakeDir" タスクをアセンブリ "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" から使用しています。
+       タスク "MakeDir"
+       タスク "MakeDir" の実行が終了しました。
+       false 条件のため、タスク "VCMessage" を省略しました。('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary') は (''!='true' and 'false'=='true' and 'Application'!='Application' and 'Application'!='DynamicLibrary' and 'Application'!='StaticLibrary') として評価されました。
+       false 条件のため、タスク "VCMessage" を省略しました。('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true' and ('$(TargetFrameworkVersion)'=='v3.5' or '$(TargetFrameworkVersion)'=='v3.0' or '$(TargetFrameworkVersion)'=='v2.0' )) は (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\'=='' and '' != 'true' and ('v4.0'=='v3.5' or 'v4.0'=='v3.0' or 'v4.0'=='v2.0' )) として評価されました。
+       false 条件のため、タスク "VCMessage" を省略しました。('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') は (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\'=='' and '' != 'true' and 'v141'=='v90') として評価されました。
+       false 条件のため、タスク "VCMessage" を省略しました。('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true') は (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\'=='' and '' != 'true') として評価されました。
+       false 条件のため、タスク "VCMessage" を省略しました。('$(DesignTimeBuild)'!='true' and '$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') は (''!='true' and 'C:\Program Files (x86)\Windows Kits\10\'=='' and '' != 'true') として評価されました。
+       false 条件のため、タスク "VCMessage" を省略しました。('$(DesignTimeBuild)'!='true' and '$(IntDirTrailingSlashWarning)'=='true') は (''!='true' and ''=='true') として評価されました。
+       false 条件のため、タスク "VCMessage" を省略しました。('$(DesignTimeBuild)'!='true' and '$(OutDirTrailingSlashWarning)'=='true') は (''!='true' and ''=='true') として評価されました。
+       false 条件のため、タスク "VCMessage" を省略しました。('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true') は ('' != '' and ''!='true') として評価されました。
+       false 条件のため、タスク "VCMessage" を省略しました。('$(IgnoreWarnIntDirSharingDetected)' != 'true' and '$(IntDirSharingDetected)' == 'true') は ('' != 'true' and '' == 'true') として評価されました。
+       false 条件のため、タスク "VCMessage" を省略しました。('$(DesignTimeBuild)'!='true' and '$(IgnoreWarnIntDirInTempDetected)' != 'true' and ('$(_IntDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_IntDirFullpath.StartsWith($(Temp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Temp), true, null))' == 'true')) は (''!='true' and '' != 'true' and ('False' == 'true' or 'False' == 'true' or 'False' == 'true' or 'False' == 'true')) として評価されました。
+       false 条件のため、タスク "VCMessage" を省略しました。('$(DesignTimeBuild)' != 'true' and '$(SpectreMitigation)' != '' and '$(SpectreMitigation)' != 'false' and (('$(_VC_Target_Library_Platform)' == 'OneCore' and !Exists('$(VC_LibraryPath_VC_x86_OneCore)')) or ('$(_VC_Target_Library_Platform)' == 'Desktop' and !Exists('$(VC_LibraryPath_VC_x86_Desktop)')))) は ('' != 'true' and 'false' != '' and 'false' != 'false' and (('Desktop' == 'OneCore' and !Exists('C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\onecore\x86')) or ('Desktop' == 'Desktop' and !Exists('C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x86')))) として評価されました。
+       タスク "MakeDir"
+         ディレクトリ "D:\Study\Cpp\FirstSDLProgram\x64\Debug\" を作成しています。
+         ディレクトリ "x64\Debug\FirstSDLProgram.tlog\" を作成しています。
+       タスク "MakeDir" の実行が終了しました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "PrepareForBuild" のビルドが終了しました。
+       ターゲット "_PrepareForReferenceResolution" を省略しました。以前に正しくビルドされていました。
+       false 条件により、ターゲット "ComputeCrtSDKReference" を省略しました。('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') は ('main.cpp'!='' and 'false'=='true' and '' != 'false') として評価されました。
+       false 条件により、ターゲット "GetInstalledSDKLocations" を省略しました。('@(SDKReference)' != '') は ('' != '') として評価されました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "ResolveSDKReferences" (ターゲット "ResolveAssemblyReferences" は依存):
+       false 条件のため、タスク "ResolveSDKReference" を省略しました。('@(SDKReference)'!='') は (''!='') として評価されました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "ResolveSDKReferences" のビルドが終了しました。
+       ターゲット "ResolveSDKReferences" を省略しました。以前に正しくビルドされていました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "ExpandSDKReferences" (ターゲット "ResolveAssemblyReferences" は依存):
+       false 条件のため、タスク "GetSDKReferenceFiles" を省略しました。('@(ResolvedSDKReference)'!='') は (''!='') として評価されました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "ExpandSDKReferences" のビルドが終了しました。
+       false 条件により、ターゲット "ResolveNuGetPackageAssets" を省略しました。('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) は ('true' == 'true' and exists('obj\project.assets.json')) として評価されました。
+       false 条件により、ターゲット "ImplicitlyExpandNETStandardFacades" を省略しました。('$(ImplicitlyExpandNETStandardFacades)' == 'true') は ('' == 'true') として評価されました。
+       ターゲット "GetReferenceAssemblyPaths" を省略しました。以前に正しくビルドされていました。
+       false 条件により、ターゲット "ImplicitlyExpandNETStandardFacades" を省略しました。('$(ImplicitlyExpandNETStandardFacades)' == 'true') は ('' == 'true') として評価されました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "_HandlePackageFileConflicts" (ターゲット "ResolveAssemblyReferences" は依存):
+       "ResolvePackageFileConflicts" タスクをアセンブリ "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\tools\net46\Microsoft.NET.Build.Extensions.Tasks.dll" から使用しています。
+       タスク "ResolvePackageFileConflicts"
+       タスク "ResolvePackageFileConflicts" の実行が終了しました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "_HandlePackageFileConflicts" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "ResolveAssemblyReferences" (ターゲット "ResolveReferences" は依存):
+       false 条件のため、タスク "ResolveAssemblyReference" を省略しました。('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') は (''!='' or ''!='' or '' != '') として評価されました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "ResolveAssemblyReferences" のビルドが終了しました。
+       false 条件により、ターゲット "GenerateBindingRedirects" を省略しました。('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') は ('' == 'true' and 'true' == 'true') として評価されました。
+       false 条件により、ターゲット "_RemoveZipFileSuggestedRedirect" を省略しました。('$(_TargetFrameworkVersionWithoutV)' >= '4.7.1' And '$(AllowZipFileRedirect)' != 'true') は ('4.0' >= '4.7.1' And '' != 'true') として評価されました。
+       false 条件により、ターゲット "GenerateBindingRedirectsUpdateAppConfig" を省略しました。('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) は ('' == 'true' and 'true' == 'true' and Exists('x64\Debug\FirstSDLProgram.exe.config')) として評価されました。
+       false 条件により、ターゲット "ResolveComReferences" を省略しました。('@(COMReference)'!='' or '@(COMFileReference)'!='') は (''!='' or ''!='') として評価されました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "AfterResolveReferences" (ターゲット "ResolveReferences" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "AfterResolveReferences" のビルドが終了しました。
+       false 条件により、ターゲット "ImplicitlyExpandDesignTimeFacades" を省略しました。('$(ImplicitlyExpandDesignTimeFacades)' == 'true') は ('' == 'true') として評価されました。
+       false 条件により、ターゲット "ResolveTestReferences" を省略しました。('@(Shadow)'!='') は (''!='') として評価されました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "ResolveReferences" (ターゲット "Build" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "ResolveReferences" のビルドが終了しました。
+       ターゲット "PrepareForBuild" を省略しました。以前に正しくビルドされていました。
+       ターゲット "PrepareForBuild" を省略しました。以前に正しくビルドされていました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "InitializeBuildStatus" (ターゲット "Build" は依存):
+       "ReadLinesFromFile" タスクをアセンブリ "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" から使用しています。
+       タスク "ReadLinesFromFile"
+       タスク "ReadLinesFromFile" の実行が終了しました。
+       "WriteLinesToFile" タスクをアセンブリ "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" から使用しています。
+       タスク "WriteLinesToFile"
+       タスク "WriteLinesToFile" の実行が終了しました。
+       "Touch" タスクをアセンブリ "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" から使用しています。
+       タスク "Touch"
+         "AlwaysCreate" が指定されたため "x64\Debug\FirstSDLProgram.tlog\unsuccessfulbuild" を作成しています。
+       タスク "Touch" の実行が終了しました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "InitializeBuildStatus" のビルドが終了しました。
+       ターゲット "PrepareProjectReferences" を省略しました。以前に正しくビルドされていました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "BuildGenerateSourcesTraverse" (ターゲット "BuildGenerateSources" は依存):
+       false 条件のため、タスク "MSBuild" を省略しました。('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') は ('' == 'true' and '' != '' and '' != '' and '' == 'true') として評価されました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "BuildGenerateSourcesTraverse" のビルドが終了しました。
+       ターゲット "PrepareForBuild" を省略しました。以前に正しくビルドされていました。
+       ターゲット "ResolveReferences" を省略しました。以前に正しくビルドされていました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "BeforeBuildGenerateSources" (ターゲット "_BuildGenerateSourcesAction" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "BeforeBuildGenerateSources" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "PreBuildEvent" (ターゲット "_BuildGenerateSourcesAction" は依存):
+       false 条件のため、タスク "Message" を省略しました。('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') は ('' != '' and '' != '') として評価されました。
+       false 条件のため、タスク "Exec" を省略しました。('%(PreBuildEvent.Command)' != '') は ('' != '') として評価されました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "PreBuildEvent" のビルドが終了しました。
+       false 条件により、ターゲット "CustomBuild" を省略しました。('@(CustomBuild)' != '') は ('' != '') として評価されました。
+       false 条件により、ターゲット "FxExport" を省略しました。('@(FxCompile)' != '') は ('' != '') として評価されました。
+       false 条件により、ターゲット "FxCompile" を省略しました。('@(FxCompile)' != '') は ('' != '') として評価されました。
+       false 条件により、ターゲット "_CreateCopyFileItems" を省略しました。('@(CopyFileToFolders)' != '') は ('' != '') として評価されました。
+       ターゲット "PrepareForBuild" を省略しました。以前に正しくビルドされていました。
+       ターゲット "InitializeBuildStatus" を省略しました。以前に正しくビルドされていました。
+       ターゲット "SetBuildDefaultEnvironmentVariables" を省略しました。以前に正しくビルドされていました。
+       false 条件により、ターゲット "SetUserMacroEnvironmentVariables" を省略しました。('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') は ('' != '' and '' != 'true') として評価されました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "_SelectedFiles" (ターゲット "CopyFileToFolders" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "_SelectedFiles" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "CopyFileToFolders" (ターゲット "_BuildGenerateSourcesAction" は依存):
+       "GetOutOfDateItems" タスクをアセンブリ "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll" から使用しています。
+       タスク "GetOutOfDateItems"
+       タスク "GetOutOfDateItems" の実行が終了しました。
+       false 条件のため、タスク "Copy" を省略しました。('@(_OutOfDateCopyFile)' != '') は ('' != '') として評価されました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "CopyFileToFolders" のビルドが終了しました。
+       false 条件により、ターゲット "Xsd" を省略しました。('@(Xsd)' != '') は ('' != '') として評価されました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "_Xsd" (ターゲット "_BuildGenerateSourcesAction" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "_Xsd" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "MakeDirsForMidl" (ターゲット "_Midl" は依存):
+       タスク "Makedir"
+       タスク "Makedir" の実行が終了しました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "MakeDirsForMidl" のビルドが終了しました。
+       false 条件により、ターゲット "Midl" を省略しました。('@(Midl)' != '') は ('' != '') として評価されました。
+       false 条件により、ターゲット "CustomBuild" を省略しました。('@(CustomBuild)' != '') は ('' != '') として評価されました。
+       false 条件により、ターゲット "FxExport" を省略しました。('@(FxCompile)' != '') は ('' != '') として評価されました。
+       false 条件により、ターゲット "FxCompile" を省略しました。('@(FxCompile)' != '') は ('' != '') として評価されました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "ComputeMIDLGeneratedCompileInputs" (ターゲット "_Midl" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "ComputeMIDLGeneratedCompileInputs" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "AfterMidl" (ターゲット "_Midl" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "AfterMidl" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "_Midl" (ターゲット "_BuildGenerateSourcesAction" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "_Midl" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "AfterBuildGenerateSources" (ターゲット "_BuildGenerateSourcesAction" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "AfterBuildGenerateSources" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "AfterBuildGenerateSourcesEvent" (ターゲット "_BuildGenerateSourcesAction" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "AfterBuildGenerateSourcesEvent" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "_BuildGenerateSourcesAction" (ターゲット "BuildGenerateSources" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "_BuildGenerateSourcesAction" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "BuildGenerateSources" (ターゲット "Build" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "BuildGenerateSources" のビルドが終了しました。
+       ターゲット "PrepareProjectReferences" を省略しました。以前に正しくビルドされていました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "BuildCompileTraverse" (ターゲット "BuildCompile" は依存):
+       false 条件のため、タスク "MSBuild" を省略しました。('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') は ('' == 'true' and '' != '' and '' != ''  and '' == 'true') として評価されました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "BuildCompileTraverse" のビルドが終了しました。
+       ターゲット "PrepareForBuild" を省略しました。以前に正しくビルドされていました。
+       ターゲット "ResolveReferences" を省略しました。以前に正しくビルドされていました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "BeforeClCompile" (ターゲット "_ClCompile" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "BeforeClCompile" のビルドが終了しました。
+       ターゲット "ComputeMIDLGeneratedCompileInputs" を省略しました。以前に正しくビルドされていました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "ComputeCLInputPDBName" (ターゲット "_ClCompile" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "ComputeCLInputPDBName" のビルドが終了しました。
+       ターゲット "ResolveReferences" を省略しました。以前に正しくビルドされていました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "ComputeReferenceCLInput" (ターゲット "_ClCompile" は依存):
+       false 条件のため、タスク "WriteLinesToFile" を省略しました。(('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true') は ((''!='') and '' != 'true') として評価されました。
+       false 条件のため、タスク "Message" を省略しました。('$(_REFERENCE_DEBUG)'=='true') は (''=='true') として評価されました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "ComputeReferenceCLInput" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "WarnCompileDuplicatedFilename" (ターゲット "_ClCompile" は依存):
+       false 条件のため、タスク "VCMessage" を省略しました。('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') は ('' != 'true' and 'main.cpp' != 'main.cpp' and 'x64\Debug\' == 'x64\Debug\') として評価されました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "WarnCompileDuplicatedFilename" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "FixupCLCompileOptions" (ターゲット "_ClCompile" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "FixupCLCompileOptions" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "MakeDirsForCl" (ターゲット "_ClCompile" は依存):
+       タスク "MakeDir"
+       タスク "MakeDir" の実行が終了しました。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "MakeDirsForCl" のビルドが終了しました。
+       ターゲット "_SelectedFiles" を省略しました。以前に正しくビルドされていました。
+       ターゲット "ComputeMIDLGeneratedCompileInputs" を省略しました。以前に正しくビルドされていました。
+       ターゲット "ComputeCLInputPDBName" を省略しました。以前に正しくビルドされていました。
+       ターゲット "ComputeReferenceCLInput" を省略しました。以前に正しくビルドされていました。
+       ターゲット "WarnCompileDuplicatedFilename" を省略しました。以前に正しくビルドされていました。
+       ターゲット "FixupCLCompileOptions" を省略しました。以前に正しくビルドされていました。
+       ターゲット "_SelectedFiles" を省略しました。以前に正しくビルドされていました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "SelectCustomBuild" (ターゲット "SelectClCompile" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "SelectCustomBuild" のビルドが終了しました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "SelectClCompile" (ターゲット "ClCompile" は依存):
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "SelectClCompile" のビルドが終了しました。
+       false 条件により、ターゲット "GenerateTargetFrameworkMonikerAttribute" を省略しました。('$(GenerateTargetFrameworkAttribute)' == 'true') は ('false' == 'true') として評価されました。
+       false 条件により、ターゲット "ManagedIncrementalBuildPreProcessDependencyGraph" を省略しました。('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') は ('main.cpp' != '' and 'false' == 'True') として評価されました。
+     1>ファイル "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 内にある、プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" からのターゲット "ClCompile" (ターゲット "_ClCompile" は依存):
+       "Delete" タスクをアセンブリ "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" から使用しています。
+       タスク "Delete"
+       タスク "Delete" の実行が終了しました。
+       false 条件のため、タスク "CL" を省略しました。('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '') は ('NotUsing' == 'Create' and ''!='true' and '' == '') として評価されました。
+       "CL" タスクをアセンブリ "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll" から使用しています。
+       タスク "CL"
+         PDB "x64\Debug\vc141.pdb" がないため、すべてのソース ファイルを強制的に再コンパイルしています。
+         ツールに渡された環境変数:
+           VS_UNICODE_OUTPUT=1944
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc141.pdb" /Gd /TP /FC /errorReport:prompt main.cpp
+         トラッキング コマンド:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\x64\Debug\FirstSDLProgram.tlog /r D:\STUDY\CPP\FIRSTSDLPROGRAM\FIRSTSDLPROGRAM\MAIN.CPP /b MSBuildConsole_CancelEvent36c8541cef334f389430aa8aa1ccbe1d  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc141.pdb" /Gd /TP /FC /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\study\cpp\firstsdlprogram\firstsdlprogram\main.cpp(1): fatal error C1083: include ファイルを開けません。'SDL.h':No such file or directory
+         コマンドはコード 2 で終了しました。
+       タスク "CL" の実行が終了しました -- 失敗。
+     1>プロジェクト "FirstSDLProgram.vcxproj" 内のターゲット "ClCompile" のビルドが終了しました -- 失敗。
+     1>プロジェクト "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+       "D:\Study\Cpp\FirstSDLProgram\FirstSDLProgram\FirstSDLProgram.vcxproj" (Build ターゲット) (1) ->
+       (ClCompile ターゲット) -> 
+         d:\study\cpp\firstsdlprogram\firstsdlprogram\main.cpp(1): fatal error C1083: include ファイルを開けません。'SDL.h':No such file or directory
+
+    0 個の警告
+    1 エラー
+
+経過時間 00:00:00.95
